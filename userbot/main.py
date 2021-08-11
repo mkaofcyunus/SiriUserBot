@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Siri UserBot - Berceste
+# TelegramUserbot 
 
 """ UserBot başlangıç noktası """
 import importlib
@@ -34,9 +34,9 @@ ALIVE_MSG = [
     "🎆 `Endişelenme! Seninleyim.` **{sirisahip}**, `userbot çalışıyor.`",
     "`⛈️ Yeni gibi görünüyor!`, **{sirisahip}:3**",
     "✨ `Userbot sahibinin emirlerine hazır...`",
-    "`Huh!` **{sirisahip}** `beni çağırıyor 🍰 < bu senin için 🥺..`",
+    "`Huh!` **{sahip}** `beni çağırıyor 🍰 < bu senin için 🥺..`",
     "{mention} **Siri Senin İçin Çalışıyor✨**",
-    "{username}, `SiriOT {worktime} zamandır çalışıyor...`\n——————————————\n**Telethon sürümü :** `{telethon}`\n**Userbot sürümü  :** `{siri}`\n**Python sürümü    :** `{python}`\n**Plugin sayısı :** `{plugin}`\n——————————————\n**Emrine amadeyim dostum... 😇**"
+    "{username}, `TelegramUserBot {worktime} zamandır çalışıyor...`\n——————————————\n**Telethon sürümü :** `{telethon}`\n**Userbot sürümü  :** `{siri}`\n**Python sürümü    :** `{python}`\n**Plugin sayısı :** `{plugin}`\n——————————————\n**Emrine amadeyim dostum... 😇**"
 ]
 
 DIZCILIK_STR = [
@@ -191,7 +191,7 @@ try:
     idim = bot.get_me().id
     siribl = requests.get('https://raw.githubusercontent.com/robotlog/datas/master/blacklist.json').json()
     if idim in siribl:
-        bot.send_message("me", f"`❌ Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
+        bot.send_message("me", f"`❌ TELEGRAMUSERBOT yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
         LOGS.error("Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
         bot.disconnect()
         sys.exit(1)
@@ -286,7 +286,7 @@ for module_name in ALL_MODULES:
 os.system("clear")
 
 LOGS.info("+===========================================================+")
-LOGS.info("|                     ✨Siri Userbot✨                       |")
+LOGS.info("|                     ✨ TELEGRAMUSERBOT✨                       |")
 LOGS.info("+==============+==============+==============+==============+")
 LOGS.info("|                                                            |")
 LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
