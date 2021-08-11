@@ -8,8 +8,7 @@
 
 nowtime=$(date)
 echo "
-SiriUserBot
-(C) @SiriOT
+TelegramUserbot
 Thx @DevsExpo.
 Time : $nowtime
 "
