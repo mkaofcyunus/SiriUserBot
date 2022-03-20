@@ -36,12 +36,12 @@
 
 ### 🇹🇷 Elle Kurulum / Manual Setup 🇺🇲
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SiriUserBot/SiriUserBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mkaofcyunus/SiriUserBot)
 
 ## 🇹🇷 Bilgilendirme / İnformation 🇺🇲
-***Herhangi bir istek & şikâyet & öneri varsa [destek grubuna](https://t.me/SiriSupport) ulaşabilirsiniz.***
+***Herhangi bir istek & şikâyet & öneri varsa [destek grubuna](https://t.me/mkasiriSupport) ulaşabilirsiniz.***
 
-***You can reach the [support group](https://t.me/SiriSupport) if there are any requests & complaints & suggestions.***
+***You can reach the [support group](https://t.me/mkasiriSupport) if there are any requests & complaints & suggestions.***
 ```
     Userbottan dolayı; Telegram hesabınız yasaklanabilir.
     Bu bir açık kaynaklı projedir, yaptığınız her işlemden kendiniz sorumlusunuz. Kesinlikle Siri yöneticileri sorumluluk kabul etmemektedir.
